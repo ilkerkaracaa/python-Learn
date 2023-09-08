@@ -73,3 +73,55 @@
 # 'last': 'fermi',
 # }
 # print(user_0.items())
+
+# user_0 = {
+# 'username': 'efermi',
+#               'first': 'enrico',
+#               'last': 'fermi',
+#               }
+# for key, value in user_0.items():
+#     print(f"\nKey: {key}")
+#     print(f"Value: {value}")
+
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+
+# print("The following languages have been mentioned:")
+# for language in favorite_languages.values():
+#     print(language.title())
+    
+# print("The following languages have been mentioned:")
+# for language in set(favorite_languages.values()): 
+#   print(language.title())
+  
+# print(favorite_languages.values())
+# print(set(favorite_languages.values()))
+
+# print(list(range(1, 10)))
+# print(set(range(1, 10)))
+# print(tuple(range(1, 10)))
+
+# def build_person(first_name, last_name, age=None):
+#        """Return a dictionary of information about a person."""
+#        person = {'first': first_name, 'last': last_name}
+#        if age:
+#            person['age'] = age
+#        return person
+# musician = build_person('jimi', 'hendrix',27)
+# print(musician)
+
+# def get_formatted_name(first_name, last_name):
+#        """Return a full name, neatly formatted."""
+#        full_name = f"{first_name} {last_name}"
+#        return full_name.title()
+#    # This is an infinite loop!
+# while True:
+#       print("\nPlease tell me your name:")
+#       f_name = input("First name: ")
+#       l_name = input("Last name: ")
+#       formatted_name = get_formatted_name(f_name, l_name)
+#       print(f"\nHello, {formatted_name}!")
