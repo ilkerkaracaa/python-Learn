@@ -258,19 +258,19 @@ class Battery:
             range = 315
         print(f"This car can go about {range} miles on a full charge.")
             
-class ElectricCar(Car):
+class ElectricCar():
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
         self.battery = Battery()
     def fill_gas_tank(self):
         print("This car doesn't need a gas tank!")
                 
-my_tesla = ElectricCar('tesla', 'model s', 2019)
-print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
-my_tesla.fill_gas_tank()
-car = Car('audi', 'a4', 2019)
-car.fill_gas_tank()
-my_tesla.battery.get_range()
-my_tesla.battery.upgrade_battery()
-my_tesla.battery.get_range()
+# my_tesla = ElectricCar('tesla', 'model s', 2019)
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.fill_gas_tank()
+# car = Car('audi', 'a4', 2019)
+# car.fill_gas_tank()
+# my_tesla.battery.get_range()
+# my_tesla.battery.upgrade_battery()
+# my_tesla.battery.get_range()
